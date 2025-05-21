@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4897C2202DDE44A200470E5A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4897C21F2DDE44A200470E5A /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4897C1FC2DDE1A1500470E5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		4897C1EE2DDE1A1400470E5A /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4897C1FB2DDE1A1500470E5A /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4897C2052DDE1A1500470E5A /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4897C21F2DDE44A200470E5A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4897C2202DDE44A200470E5A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				4897C1F02DDE1A1400470E5A /* Landmarks */,
 				4897C1FE2DDE1A1500470E5A /* LandmarksTests */,
 				4897C2082DDE1A1500470E5A /* LandmarksUITests */,
+				4897C21E2DDE44A200470E5A /* Frameworks */,
 				4897C1EF2DDE1A1400470E5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +97,14 @@
 				4897C2052DDE1A1500470E5A /* LandmarksUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4897C21E2DDE44A200470E5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4897C21F2DDE44A200470E5A /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
